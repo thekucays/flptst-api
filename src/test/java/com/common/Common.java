@@ -12,7 +12,7 @@ public class Common {
 		final String genderURL = "https://api.genderize.io/?name=" + name;
 		Response apiResponse = get(genderURL);
 		
-		// assert things and and return response object
+		// assert things 
 		Assert.assertEquals(apiResponse.getStatusCode(), 200);
 		given().get(genderURL)
 			.then().statusCode(200)

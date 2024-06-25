@@ -1,4 +1,5 @@
 # API Tests
+Luki Ramadon - https://github.com/thekucays/flptst-api
 
 ## IDE / Plugins Used
 - Eclipse 4.32.0
@@ -18,5 +19,5 @@
 ## Running The Project 
 - Open this project folder on Eclipse 
 - Open up `TestExample.java`
-- Click `Run` to run individual test case, or click `Run All` to run the suitye / all test cases
+- Click `Run` to run individual test case, or click `Run All` to run the suite / all test cases
   - report generated on `test-output` folder 
